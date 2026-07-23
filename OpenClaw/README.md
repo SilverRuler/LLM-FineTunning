@@ -58,8 +58,9 @@ OPENCLAW_GATEWAY_TOKEN=f436f7bcdb6da4b5e1fdb758229f879f8c9cf6a4ab4bc1c6e954a4edd
 ```
 #도커 접근
 docker compose exec openclaw-gateway bash
+#오픈 클로 들어가서 내부 명령어
+openclaw message send   --channel telegram   --target 1777952457   --media ./hello2.py
 ```
-
 ```
 #더 찾아야할게 생기면 내 오픈클로 대화 pdf 참조
 ```
