@@ -55,6 +55,10 @@ OPENCLAW_BRIDGE_PORT=18790
 OPENCLAW_GATEWAY_BIND=lan
 OPENCLAW_GATEWAY_TOKEN=f436f7bcdb6da4b5e1fdb758229f879f8c9cf6a4ab4bc1c6e954a4edddb93d5a
 ```
+```
+#도커 접근
+docker compose exec openclaw-gateway bash
+```
 
 ```
 #더 찾아야할게 생기면 내 오픈클로 대화 pdf 참조
